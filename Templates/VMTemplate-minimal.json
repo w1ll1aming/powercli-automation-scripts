@@ -1,0 +1,20 @@
+{
+    "Host": {
+        "Address": "192.168.40.20",
+        "Username": "youraccount@<youremail>",
+        "Password": "<your password here>"
+    },
+    "Client": {
+        "Direct": {
+            "VMHost": "192.168.40.11",
+            "NumCPU": "1",
+            "MemoryGB": "2",
+            "CoresPerSocket": "1",
+            "GuestId": "ubuntu64Guest"
+        },
+        "CDDrive": {
+            "Datastore": "[Datastore_11]",
+            "ISO": "Isofiler/ubuntu-20.04.1-desktop-amd64.iso"
+        }
+    }
+}

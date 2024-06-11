@@ -1,0 +1,7 @@
+{
+    "Host": {
+        "Address": "192.168.40.20",
+        "Username": "youraccount@<youremail>",
+        "Password": "<your password here>"
+    }
+}

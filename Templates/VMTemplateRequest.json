@@ -1,0 +1,20 @@
+{
+    "Host": {
+        "Address": "192.168.40.20",
+        "Username": "youraccount@<youremail>",
+        "Password": "<your password here>"
+    },
+    "Client": {
+        "Name": "Test machine"
+    },
+    "Config": {
+        "Output": {
+            "Directory": "%current-dir%",
+            "File": "%vm-name%-VMTemplate.json"
+        },
+        "Backup": {
+            "BackupAll": true,
+            "Properties": ["Name", "NumCpu"]
+        }
+    }
+}
